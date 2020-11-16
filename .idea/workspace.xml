@@ -10,34 +10,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cba4e498-0784-419c-92d5-38257f018768" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+    <list default="true" id="cba4e498-0784-419c-92d5-38257f018768" name="Default Changelist" comment="got base app running">
+      <change afterPath="$PROJECT_DIR$/bin/scrape.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapers/states.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/._SSL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/._controllers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/indexController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/indexController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/messageController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/projectsController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/roleController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/signupController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/tasksController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/tokenController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/usersController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/indexRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/indexRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/messageRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/projectsRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/roleRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/signupRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/tasksRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/tokenRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/usersRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils/authUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils/dbMessages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils/email.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils/fakeData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils/socket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dev.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/._stylesheets" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,15 +56,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ic-project" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v12.18.3/bin/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="run.prettier.on.save" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
@@ -92,7 +83,7 @@
       <recent name="$PROJECT_DIR$/app/utils" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.scrape">
     <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" server-name="Docker">
       <deployment type="docker-image">
         <settings>
@@ -162,6 +153,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="scrape" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="scrape" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="serve" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -192,6 +193,7 @@
     <list>
       <item itemvalue="Docker.Docker Image" />
       <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="npm.scrape" />
       <item itemvalue="npm.production" />
       <item itemvalue="npm.serve" />
       <item itemvalue="npm.start" />
@@ -259,7 +261,7 @@
       <workItem from="1585417255541" duration="2013000" />
       <workItem from="1585457143251" duration="112000" />
       <workItem from="1585798808430" duration="1959000" />
-      <workItem from="1605539785388" duration="2021000" />
+      <workItem from="1605539785388" duration="18126000" />
     </task>
     <task id="LOCAL-00001" summary="modified users route">
       <created>1566052046540</created>
@@ -359,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572920875776</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="got base app running">
+      <created>1605542018168</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605542018168</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -401,6 +410,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="modified users route" />
     <MESSAGE value="Cleanup and implementation with frontend" />
     <MESSAGE value="New projects routes" />
@@ -415,32 +425,45 @@
     <MESSAGE value="work on budget" />
     <MESSAGE value="updated user controller to send more complete user data" />
     <MESSAGE value="Added fake data generator, user search, and updated user info json" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added fake data generator, user search, and updated user info json" />
+    <MESSAGE value="got base app running" />
+    <option name="LAST_COMMIT_MESSAGE" value="got base app running" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1354" y="270" width="1636" height="1662" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605542946704">
+      <screen x="0" y="62" width="3840" height="2098" />
+    </state>
+    <state x="1354" y="270" width="1636" height="1662" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.62.3840.2098@0.62.3840.2098" timestamp="1605542946704" />
     <state x="1287" y="760" width="1256" height="696" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605539802738">
       <screen x="0" y="62" width="3840" height="2098" />
     </state>
     <state x="1287" y="760" width="1256" height="696" key="#com.intellij.fileTypes.FileTypeChooser/0.62.3840.2098@0.62.3840.2098" timestamp="1605539802738" />
-    <state width="3787" height="353" key="GridCell.Tab.0.bottom" timestamp="1605540988537">
+    <state x="1385" y="492" width="1060" height="1232" key="FileChooserDialogImpl" timestamp="1605549154556">
       <screen x="0" y="62" width="3840" height="2098" />
     </state>
-    <state width="3787" height="353" key="GridCell.Tab.0.bottom/0.62.3840.2098@0.62.3840.2098" timestamp="1605540988537" />
-    <state width="3787" height="353" key="GridCell.Tab.0.center" timestamp="1605540988536">
+    <state x="1385" y="492" width="1060" height="1232" key="FileChooserDialogImpl/0.62.3840.2098@0.62.3840.2098" timestamp="1605549154556" />
+    <state width="3787" height="505" key="GridCell.Tab.0.bottom" timestamp="1605558253388">
       <screen x="0" y="62" width="3840" height="2098" />
     </state>
-    <state width="3787" height="353" key="GridCell.Tab.0.center/0.62.3840.2098@0.62.3840.2098" timestamp="1605540988536" />
-    <state width="3787" height="353" key="GridCell.Tab.0.left" timestamp="1605540988536">
+    <state width="3787" height="505" key="GridCell.Tab.0.bottom/0.62.3840.2098@0.62.3840.2098" timestamp="1605558253388" />
+    <state width="3787" height="505" key="GridCell.Tab.0.center" timestamp="1605558253386">
       <screen x="0" y="62" width="3840" height="2098" />
     </state>
-    <state width="3787" height="353" key="GridCell.Tab.0.left/0.62.3840.2098@0.62.3840.2098" timestamp="1605540988536" />
-    <state width="3787" height="353" key="GridCell.Tab.0.right" timestamp="1605540988537">
+    <state width="3787" height="505" key="GridCell.Tab.0.center/0.62.3840.2098@0.62.3840.2098" timestamp="1605558253386" />
+    <state width="3787" height="505" key="GridCell.Tab.0.left" timestamp="1605558253385">
       <screen x="0" y="62" width="3840" height="2098" />
     </state>
-    <state width="3787" height="353" key="GridCell.Tab.0.right/0.62.3840.2098@0.62.3840.2098" timestamp="1605540988537" />
+    <state width="3787" height="505" key="GridCell.Tab.0.left/0.62.3840.2098@0.62.3840.2098" timestamp="1605558253384" />
+    <state width="3787" height="505" key="GridCell.Tab.0.right" timestamp="1605558253387">
+      <screen x="0" y="62" width="3840" height="2098" />
+    </state>
+    <state width="3787" height="505" key="GridCell.Tab.0.right/0.62.3840.2098@0.62.3840.2098" timestamp="1605558253387" />
     <state x="683" y="161" width="2473" height="1846" key="SettingsEditor" timestamp="1605540516116">
       <screen x="0" y="62" width="3840" height="2098" />
     </state>
     <state x="683" y="161" width="2473" height="1846" key="SettingsEditor/0.62.3840.2098@0.62.3840.2098" timestamp="1605540516116" />
+    <state x="915" y="366" width="2000" height="1435" key="Vcs.Push.Dialog.v2" timestamp="1605542045996">
+      <screen x="0" y="62" width="3840" height="2098" />
+    </state>
+    <state x="915" y="366" width="2000" height="1435" key="Vcs.Push.Dialog.v2/0.62.3840.2098@0.62.3840.2098" timestamp="1605542045996" />
   </component>
 </project>

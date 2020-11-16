@@ -7,12 +7,14 @@
     "clean": "rm -rf dist",
     "build": "npm run clean && mkdir dist && babel app -s -d dist",
     "production": "npm run build && nodemon ./bin/production",
-    "serve": "npm run build && cd ./dist && npx serve"
+    "serve": "npm run build && cd ./dist && npx serve",
+    "scrape": "node ./bin/scrape"
   },
   "dependencies": {
     "bcrypt": "^3.0.8",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
+    "dashify": "^2.0.0",
     "debug": "~2.6.9",
     "express": "~4.17.1",
     "fs": "0.0.1-security",
