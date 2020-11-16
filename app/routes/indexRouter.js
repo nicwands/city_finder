@@ -1,11 +1,11 @@
 // All main index.js routes
 
-import express from 'express';
-const router = express.Router();
+import express from 'express'
+const router = express.Router()
 
-import { getIndexData } from "../controllers/indexController";
-import { verifyToken } from "../utils/authUtil";
+import { getIndexData } from '../controllers/indexController'
+// import { verifyToken } from "../utils/authUtil";
 
-router.get('/', verifyToken, getIndexData);
+router.get('/', getIndexData)
 
-export default router;
+export default router

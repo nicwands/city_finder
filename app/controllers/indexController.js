@@ -1,5 +1,9 @@
-// Controller for all root / routes
+import con from '../db'
 
 export const getIndexData = (req, res) => {
-  res.send("Everything is working!");
+    con.query('SELECT * FROM city', (err, rows, fields) => {
+        console.log(err, rows, fields)
+        if (err) res.json(err)
+        res.json(rows)
+    })
 }
