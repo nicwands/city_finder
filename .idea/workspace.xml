@@ -10,22 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cba4e498-0784-419c-92d5-38257f018768" name="Default Changelist" comment="got base app running">
-      <change afterPath="$PROJECT_DIR$/bin/scrape.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapers/states.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/authUtil.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/dbMessages.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/email.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/fakeData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/socket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="cba4e498-0784-419c-92d5-38257f018768" name="Default Changelist" comment="added weather scraper">
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +247,7 @@
       <workItem from="1585417255541" duration="2013000" />
       <workItem from="1585457143251" duration="112000" />
       <workItem from="1585798808430" duration="1959000" />
-      <workItem from="1605539785388" duration="18126000" />
+      <workItem from="1605539785388" duration="18549000" />
     </task>
     <task id="LOCAL-00001" summary="modified users route">
       <created>1566052046540</created>
@@ -368,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605542018168</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added weather scraper">
+      <created>1605558333535</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605558333535</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -426,7 +419,8 @@
     <MESSAGE value="updated user controller to send more complete user data" />
     <MESSAGE value="Added fake data generator, user search, and updated user info json" />
     <MESSAGE value="got base app running" />
-    <option name="LAST_COMMIT_MESSAGE" value="got base app running" />
+    <MESSAGE value="added weather scraper" />
+    <option name="LAST_COMMIT_MESSAGE" value="added weather scraper" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1354" y="270" width="1636" height="1662" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605542946704">
@@ -441,29 +435,29 @@
       <screen x="0" y="62" width="3840" height="2098" />
     </state>
     <state x="1385" y="492" width="1060" height="1232" key="FileChooserDialogImpl/0.62.3840.2098@0.62.3840.2098" timestamp="1605549154556" />
-    <state width="3787" height="505" key="GridCell.Tab.0.bottom" timestamp="1605558253388">
+    <state width="3787" height="780" key="GridCell.Tab.0.bottom" timestamp="1605558414880">
       <screen x="0" y="62" width="3840" height="2098" />
     </state>
-    <state width="3787" height="505" key="GridCell.Tab.0.bottom/0.62.3840.2098@0.62.3840.2098" timestamp="1605558253388" />
-    <state width="3787" height="505" key="GridCell.Tab.0.center" timestamp="1605558253386">
+    <state width="3787" height="780" key="GridCell.Tab.0.bottom/0.62.3840.2098@0.62.3840.2098" timestamp="1605558414880" />
+    <state width="3787" height="780" key="GridCell.Tab.0.center" timestamp="1605558414879">
       <screen x="0" y="62" width="3840" height="2098" />
     </state>
-    <state width="3787" height="505" key="GridCell.Tab.0.center/0.62.3840.2098@0.62.3840.2098" timestamp="1605558253386" />
-    <state width="3787" height="505" key="GridCell.Tab.0.left" timestamp="1605558253385">
+    <state width="3787" height="780" key="GridCell.Tab.0.center/0.62.3840.2098@0.62.3840.2098" timestamp="1605558414879" />
+    <state width="3787" height="780" key="GridCell.Tab.0.left" timestamp="1605558414877">
       <screen x="0" y="62" width="3840" height="2098" />
     </state>
-    <state width="3787" height="505" key="GridCell.Tab.0.left/0.62.3840.2098@0.62.3840.2098" timestamp="1605558253384" />
-    <state width="3787" height="505" key="GridCell.Tab.0.right" timestamp="1605558253387">
+    <state width="3787" height="780" key="GridCell.Tab.0.left/0.62.3840.2098@0.62.3840.2098" timestamp="1605558414877" />
+    <state width="3787" height="780" key="GridCell.Tab.0.right" timestamp="1605558414880">
       <screen x="0" y="62" width="3840" height="2098" />
     </state>
-    <state width="3787" height="505" key="GridCell.Tab.0.right/0.62.3840.2098@0.62.3840.2098" timestamp="1605558253387" />
+    <state width="3787" height="780" key="GridCell.Tab.0.right/0.62.3840.2098@0.62.3840.2098" timestamp="1605558414880" />
     <state x="683" y="161" width="2473" height="1846" key="SettingsEditor" timestamp="1605540516116">
       <screen x="0" y="62" width="3840" height="2098" />
     </state>
     <state x="683" y="161" width="2473" height="1846" key="SettingsEditor/0.62.3840.2098@0.62.3840.2098" timestamp="1605540516116" />
-    <state x="915" y="366" width="2000" height="1435" key="Vcs.Push.Dialog.v2" timestamp="1605542045996">
+    <state x="915" y="342" width="2000" height="1435" key="Vcs.Push.Dialog.v2" timestamp="1605558337933">
       <screen x="0" y="62" width="3840" height="2098" />
     </state>
-    <state x="915" y="366" width="2000" height="1435" key="Vcs.Push.Dialog.v2/0.62.3840.2098@0.62.3840.2098" timestamp="1605542045996" />
+    <state x="915" y="342" width="2000" height="1435" key="Vcs.Push.Dialog.v2/0.62.3840.2098@0.62.3840.2098" timestamp="1605558337933" />
   </component>
 </project>
