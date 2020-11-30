@@ -1,4 +1,4 @@
-const states = [
+const stateList = [
     ['Arizona', 'AZ'],
     ['Alabama', 'AL'],
     ['Alaska', 'AK'],
@@ -51,4 +51,4 @@ const states = [
     ['Wyoming', 'WY']
 ]
 
-export default states
+export default stateList

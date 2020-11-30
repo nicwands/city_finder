@@ -11,7 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cba4e498-0784-419c-92d5-38257f018768" name="Default Changelist" comment="added weather scraper">
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db-backups/post-weather.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapers/hiking.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapers/weather.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/scrapers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapers/states.js" beforeDir="false" afterPath="$PROJECT_DIR$/scrapers/stateList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +54,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
@@ -56,17 +69,18 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/views" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
     </key>
   </component>
   <component name="RunManager" selected="npm.scrape">
@@ -196,7 +210,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -248,6 +261,10 @@
       <workItem from="1585457143251" duration="112000" />
       <workItem from="1585798808430" duration="1959000" />
       <workItem from="1605539785388" duration="18549000" />
+      <workItem from="1605636843789" duration="3539000" />
+      <workItem from="1605715815682" duration="6878000" />
+      <workItem from="1606144089853" duration="48000" />
+      <workItem from="1606753081894" duration="727000" />
     </task>
     <task id="LOCAL-00001" summary="modified users route">
       <created>1566052046540</created>
@@ -374,7 +391,7 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -427,33 +444,40 @@
       <screen x="0" y="62" width="3840" height="2098" />
     </state>
     <state x="1354" y="270" width="1636" height="1662" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.62.3840.2098@0.62.3840.2098" timestamp="1605542946704" />
-    <state x="1287" y="760" width="1256" height="696" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605539802738">
-      <screen x="0" y="62" width="3840" height="2098" />
+    <state x="858" y="496" width="496" height="421" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605721707504">
+      <screen x="0" y="25" width="2560" height="1415" />
     </state>
+    <state x="858" y="496" width="496" height="421" key="#com.intellij.fileTypes.FileTypeChooser/0.25.2560.1415@0.25.2560.1415" timestamp="1605721707504" />
     <state x="1287" y="760" width="1256" height="696" key="#com.intellij.fileTypes.FileTypeChooser/0.62.3840.2098@0.62.3840.2098" timestamp="1605539802738" />
-    <state x="1385" y="492" width="1060" height="1232" key="FileChooserDialogImpl" timestamp="1605549154556">
-      <screen x="0" y="62" width="3840" height="2098" />
+    <state x="923" y="315" width="1060" height="1232" key="FileChooserDialogImpl" timestamp="1605558920949">
+      <screen x="0" y="25" width="2560" height="1415" />
     </state>
+    <state x="923" y="315" key="FileChooserDialogImpl/0.25.2560.1415@0.25.2560.1415" timestamp="1605558920949" />
     <state x="1385" y="492" width="1060" height="1232" key="FileChooserDialogImpl/0.62.3840.2098@0.62.3840.2098" timestamp="1605549154556" />
-    <state width="3787" height="780" key="GridCell.Tab.0.bottom" timestamp="1605558414880">
-      <screen x="0" y="62" width="3840" height="2098" />
+    <state width="614" height="1066" key="GridCell.Tab.0.bottom" timestamp="1605725899048">
+      <screen x="0" y="25" width="2560" height="1415" />
     </state>
+    <state width="614" height="1066" key="GridCell.Tab.0.bottom/0.25.2560.1415@0.25.2560.1415" timestamp="1605725899048" />
     <state width="3787" height="780" key="GridCell.Tab.0.bottom/0.62.3840.2098@0.62.3840.2098" timestamp="1605558414880" />
-    <state width="3787" height="780" key="GridCell.Tab.0.center" timestamp="1605558414879">
-      <screen x="0" y="62" width="3840" height="2098" />
+    <state width="614" height="1066" key="GridCell.Tab.0.center" timestamp="1605725899048">
+      <screen x="0" y="25" width="2560" height="1415" />
     </state>
+    <state width="614" height="1066" key="GridCell.Tab.0.center/0.25.2560.1415@0.25.2560.1415" timestamp="1605725899048" />
     <state width="3787" height="780" key="GridCell.Tab.0.center/0.62.3840.2098@0.62.3840.2098" timestamp="1605558414879" />
-    <state width="3787" height="780" key="GridCell.Tab.0.left" timestamp="1605558414877">
-      <screen x="0" y="62" width="3840" height="2098" />
+    <state width="614" height="1066" key="GridCell.Tab.0.left" timestamp="1605725899047">
+      <screen x="0" y="25" width="2560" height="1415" />
     </state>
+    <state width="614" height="1066" key="GridCell.Tab.0.left/0.25.2560.1415@0.25.2560.1415" timestamp="1605725899047" />
     <state width="3787" height="780" key="GridCell.Tab.0.left/0.62.3840.2098@0.62.3840.2098" timestamp="1605558414877" />
-    <state width="3787" height="780" key="GridCell.Tab.0.right" timestamp="1605558414880">
-      <screen x="0" y="62" width="3840" height="2098" />
+    <state width="614" height="1066" key="GridCell.Tab.0.right" timestamp="1605725899048">
+      <screen x="0" y="25" width="2560" height="1415" />
     </state>
+    <state width="614" height="1066" key="GridCell.Tab.0.right/0.25.2560.1415@0.25.2560.1415" timestamp="1605725899048" />
     <state width="3787" height="780" key="GridCell.Tab.0.right/0.62.3840.2098@0.62.3840.2098" timestamp="1605558414880" />
-    <state x="683" y="161" width="2473" height="1846" key="SettingsEditor" timestamp="1605540516116">
-      <screen x="0" y="62" width="3840" height="2098" />
+    <state x="455" y="92" width="2473" height="1846" key="SettingsEditor" timestamp="1605717934263">
+      <screen x="0" y="25" width="2560" height="1415" />
     </state>
+    <state x="455" y="92" key="SettingsEditor/0.25.2560.1415@0.25.2560.1415" timestamp="1605717934263" />
     <state x="683" y="161" width="2473" height="1846" key="SettingsEditor/0.62.3840.2098@0.62.3840.2098" timestamp="1605540516116" />
     <state x="915" y="342" width="2000" height="1435" key="Vcs.Push.Dialog.v2" timestamp="1605558337933">
       <screen x="0" y="62" width="3840" height="2098" />
